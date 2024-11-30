@@ -1,0 +1,15 @@
+/* Asegúrate de que el tamaño del texto se aplica solo dentro de .location_icon.x */
+.location_icon.x a {
+    font-size: 19px; /* Ajusta el tamaño según lo que necesites */
+    text-decoration: none;
+    color: inherit; /* Esto asegura que el color inicial sea el predeterminado */
+}
+
+.location_icon.x a:hover {
+    color: #03cafc; /* Cambia el color a celeste cuando el cursor pasa por encima */
+}
+
+/* Ajusta el margen superior del último elemento si es necesario */
+.location_icon.x li:last-child a {
+    margin-top: 10px;
+}

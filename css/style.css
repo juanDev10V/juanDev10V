@@ -837,3 +837,11 @@ ul.location_icon li a {
 .shop {
      margin-bottom: 90px;
 }
+
+#contact .row > div {
+     margin-bottom: 20px;
+ }
+ iframe {
+     border: 0;
+ }
+ 
